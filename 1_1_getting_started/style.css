@@ -16,4 +16,10 @@ h3 {
 
 p {
   font-size: 1em;
+  text-align: center;
+}
+
+.text{
+  background-color: cornflowerblue;
+  width:300px;
 }
