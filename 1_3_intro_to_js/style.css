@@ -15,7 +15,13 @@ h3 {
 
 p {
   font-family: serif;
-  font-size: 1em;
+  font-size: 2em;
+  text-align: center;
+
+}
+
+.buttons{
+  text-align: center;
 }
 
 section {
