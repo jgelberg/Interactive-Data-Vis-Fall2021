@@ -25,9 +25,9 @@ d3.json("../data/environmentRatings.json", d3.autoType)
     const yScale = d3.scaleLinear()
       .domain(d3.extent(scores, d => d.envScore2020))
       .range([height - margin, margin])
-      .nice()
+      // .nice()
 
-    console.log('yScale.domain() :>> ', yScale.domain());
+    // console.log('yScale.domain() :>> ', yScale.domain());
 
     const colorScale = d3.scaleOrdinal()
       .domain(["R", "D", "I"])
@@ -37,12 +37,21 @@ d3.json("../data/environmentRatings.json", d3.autoType)
 
     svg.selectAll(".dot")
       .data(scores)
-      .join("circle")
+      .join(enter => enter
+        .append("circle")
+          .attr("r", 0)
+          .style("fill", "black")
+          .call(enter => enter.transition()
+            .delay((d, i) => xScale(d.ideologyScore2020) * 50)
+            .duration(500)
+            .attr("r", radius)
+            .style("fill", d => colorScale(d.Party))
+          )
+      )
       .attr("class", "dot")
       .attr("cx", d => xScale(d.ideologyScore2020))
       .attr("cy", d => yScale(d.envScore2020))
-      .attr("r", radius)
-      .style("fill", d => colorScale(d.Party))
+
 
     svg.append("g")
       .attr("class", "x-axis")
