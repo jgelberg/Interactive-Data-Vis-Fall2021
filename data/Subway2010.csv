@@ -1,67 +1,67 @@
-LINE,Count per Line
+LINE,COUNT_PER_LINE
 1,20
-1-2,12
-1-2-2003,6
+1//2,12
+1//2//3,6
 2,1
-2-3,10
-2-3-2004,3
-2-3-4-5,3
-2-5,26
+2//3,10
+2//3//4,3
+2//3//4//5,3
+2//5,26
 3,2
-3-4,10
+3//4,10
 4,13
-4-5,5
-4-5-6-6 Express,6
-4-6-6 Express,14
+4//5,5
+4//5//6//6 Express,6
+4//6//6 Express,14
 5,5
 6,9
-6-6 Express,9
+6//6 Express,9
 7,10
-7-7 Express,11
-7-7 Express-N-W,1
+7//7 Express,11
+7//7 Express//N//W,1
 A,14
-A-B-C,8
-A-B-C-D,3
-A-C,18
-A-C-E,8
-A-C-F,1
-A-C-G,1
-A-C-S,1
-A-S,12
-B-D,11
-B-D-E,1
-B-D-F-M,5
-B-D-N-Q-R,1
-B-Q,7
-B-Q-S,1
+A//B//C,8
+A//B//C//D,3
+A//C,18
+A//C//E,8
+A//C//F,1
+A//C//G,1
+A//C//S,1
+A//S,12
+B//D,11
+B//D//E,1
+B//D//F//M,5
+B//D//N//Q//R,1
+B//Q,7
+B//Q//S,1
 D,13
-D-F-N-Q,1
-D-N-Q-R,1
-D-N-R,5
+D//F//N//Q,1
+D//N//Q//R,1
+D//N//R,5
 E,2
-E-F,3
-E-F-M-R,2
-E-J-Z,2
-E-M,3
-E-M-R,11
+E//F,3
+E//F//M//R,2
+E//J//Z,2
+E//M,3
+E//M//R,11
 F,21
-F-G,8
-F-M,2
-F-Q,2
+F//G,8
+F//M,2
+F//Q,2
 G,12
 J,7
-J-M,3
-J-M-Z,3
-J-Z,15
+J//M,3
+J//M//Z,3
+J//Z,15
 L,24
 M,7
 N,9
-N-Q,1
-N-Q-R-W,9
-N-R,5
-N-R-W,2
-N-W,6
+N//Q,1
+N//Q//R//W,9
+N//R,5
+N//R//W,2
+N//W,6
 Q,12
 R,4
-R-W,5
+R//W,5
 S,5
