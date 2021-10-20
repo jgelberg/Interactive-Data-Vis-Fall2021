@@ -1,5 +1,7 @@
 ## NOTES
 
+I couldn't figure out how to cut off the X axis after 2021 so the line didn't just drop off as it did
+
 -----------
 INSTRUCTIONS:
 Use this markdown file to keep track of open questions/challenges from this week's assignment.
