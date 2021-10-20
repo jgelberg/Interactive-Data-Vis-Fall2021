@@ -27,7 +27,7 @@ d3.csv("../data/2010_-_2011_Enrollement_by_District.csv", d3.autoType)
     // console.log('YTD_Enrollment_Avg :>> ', YTD_Enrollment_Avg);
 
 
-  
+
 
     /*SCALES */
     /** This is where you should define your scales from data to pixel space */
@@ -45,12 +45,12 @@ d3.csv("../data/2010_-_2011_Enrollement_by_District.csv", d3.autoType)
       .domain(data.map(d => d.District))
       .range([0, height])
       .padding(.1);
-  svg.append("g")
+    svg.append("g")
       .attr("class", "y-axis")
       .attr("transform", `translate(0, ${height})`)
       .call(d3.axisLeft(yScale))
       .style("transform", `translate(0px,0px)`)
-     
+
 
 
     /* HTML ELEMENTS */
@@ -64,8 +64,4 @@ d3.csv("../data/2010_-_2011_Enrollement_by_District.csv", d3.autoType)
       .attr("width", d => xScale(d.YTD_Enrollment_Avg))
       .attr("height", yScale.bandwidth())
       .attr("fill", "yellowGreen")
-
-
-
-
   });
