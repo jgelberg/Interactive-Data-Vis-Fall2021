@@ -93,13 +93,15 @@ function init() {
 /* DRAW FUNCTION */
 function draw() {
 
-  // let prevXScale = xScale;
-  // let prevYScale = yScale;
+  /* have to make a copy of the scale, or else it will just point to the same
+  reference that gets updated in just a few lines */
+  let prevXScale = xScale.copy();
+  let prevYScale = yScale.copy();
 
   const filteredData = state.data.filter(d => 
     state.selectedParty === "All" || d.Party === state.selectedParty
   )
-  console.log('filteredData :>> ', filteredData);
+  // console.log('filteredData :>> ', filteredData);
 
   // xScale = d3.scaleLinear()
   //   .domain(d3.extent(state.filtered, d => d.ideologyScore2020))
@@ -138,7 +140,12 @@ function draw() {
         .duration(1000)
         .attr("cx", d => xScale(d.ideologyScore2020))
         .attr("cy", d => yScale(d.envScore2020))), 
-      exit => exit.call(exit => exit.remove()),
+      exit => exit.call(exit => exit.transition()
+        .duration(1000)
+        .attr("cx", d => xScale(d.ideologyScore2020))
+        .attr("cy", d => yScale(d.envScore2020))
+        .style("opacity", 0)
+        .remove()),
     )
 
 }
