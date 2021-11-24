@@ -3,7 +3,7 @@
 ## The New York City Subway: Then and Now
 
 
-This project was inspired by our everyday lives. As New Yorkers we huddle on to subways, buses, and other types of pulic transportation daily. We rely on its safety and (semi) predictable schedule to get us where we need to go.
+This project was inspired by our everyday lives. As New Yorkers we huddle on to subways, buses, and other types of public transportation daily. We rely on its safety and (semi) predictable schedule to get us where we need to go.
 
 However, the most intricate form of transportation, the subway, didn't just appear out of thin air. It took time, money and hard work from three different transportation companies to start what we know today as the MTA or the Metropolitan Transit Authority.  At the start of the 1900s it grew from just a few stops in downtown Manhattan to over 400 in all five boroughs of the city. A map will be provided with scroll over attributes embedded in order to depict the first line and show the reader a few facts about each stop.
 
