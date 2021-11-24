@@ -12,5 +12,5 @@ The growth of this modern marvel is nothing to scoff at but as a society we need
 To conclude, the site will show how the subway has become an intregal part of out lives but we cannot settle for a system that does not work for all people in our community. 
 
 Sources:
-[Wireframe](https://lucid.app/lucidchart/9b935bec-c437-4f3b-acbd-3dd3824844fc/edit?view_items=.~XuZe4W.esl&invitationId=inv_df5b94f9-de73-4ad1-b21e-9e554da3b290)
-[Data (In Progress)](https://drive.google.com/file/d/1FM7bKnxkJNT740EUclzPDCOFYJWlB9SA/view?usp=sharing)
+<br>[Wireframe](https://lucid.app/lucidchart/9b935bec-c437-4f3b-acbd-3dd3824844fc/edit?view_items=.~XuZe4W.esl&invitationId=inv_df5b94f9-de73-4ad1-b21e-9e554da3b290)</br>
+<br>[Data (In Progress)](https://drive.google.com/file/d/1FM7bKnxkJNT740EUclzPDCOFYJWlB9SA/view?usp=sharing)</br>
