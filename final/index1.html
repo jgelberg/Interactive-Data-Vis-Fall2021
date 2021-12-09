@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <head>
+      <title> FINAL </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+</div>
+<script src="../lib/d3.js"></script>
+</div>
+  <header> NYC Subway & Accessibility</header>
+  <div class="subhead">CUNY The Graduate Center || DATA 73200 || New York, NY </div>
+  <div class = "intro"> 
+    <p>This project was inspired by our everyday lives. As New Yorkers we huddle on to subways, buses, and other types of public transportation daily. We rely on its safety and (semi) predictable schedule to get us where we need to go.</p>
+    <p>However, the most intricate form of transportation, the subway, didn't just appear out of thin air. It took time, money and hard work from three different transportation companies to start what we know today as the MTA or the Metropolitan Transit Authority.  <a href="https://www.nycsubway.org/wiki/The_First_Subway">At the start of the 1900s</a> it grew from just a few stops in downtown Manhattan to over 400 in almost all boroughs of the city (Sorry, Staten Island).</p>
+    <p>So, yes, the subway is a necessity. But what if you weren't able to take the subway to work or school? You may think, "How could this be possible?". Well, there are barriers to entry, literally and figurately for many citizens. The biggest barrier physical accessibility. By this I mean two things: physical entry and spatial density. First, let's break down physical entry. </p>
+    <p>Say, you broke your leg. Whoops. Now you are in crutches and a cast or maybe even use one of those scooters to get around. You've already taken all of your vacation days and need to go back to work (in a world without a deadly pandemic). You start heading towards your preferred subway stop. You arrive and you realize your platform is elevated. You begin to look for an elevator. Guess what, there isn't any. You think to yourself, "How the heck is this even possible? There is the <a href="https://beta.ada.gov/">ADA Act (1990)</a> here in the good ol' United States.". In a turn of events, NYC has evaded the law for some time since they subways are so old and it costs a lot and buses exsist, etc. </p>
+    <p>The graph below represents the count of stops per colored line that are accessible, not acessible and somehwat accessible. Here, "somewhat accessible" indicates that the station may have an elevator for uptown trains only. Hover over the map of the five boroughs to see more info.</p>
+<p></p>
+   <div class = "legend">
+    <ul>
+      <li style="color:#000">Total</li>
+      <li style = "color:#4daf4a">Accessible Stations</li>
+      <li style = "color: #aaa">Non-Accessible Stations</li>
+      <li style = "color: #377eb8">Somewhat Accessible Stations</li>
+    </ul>
+</div>
+
+    <div id="container">
+  
+    </div>
+    <script src="accessiblecount.js"></script>
+  
+    <script src="overviewborough.js"></script>
+   
+    <div id = "containerOB"></div>
+    <div class = "moreinfo"> 
+      <p>Now, look at the density of the stops compared to the area of the borough. How come the farther away you are to the center of Manhattan, the less subways are available? Also, take a look at the median household average income per borough by hovering.</p>
+    </div>
+</body>
+</html>

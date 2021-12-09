@@ -1,0 +1,6 @@
+﻿Borough,Population,Median_Household_Income,Area,Subway_Stops
+Bronx,"1,418,207"," $42,140 ",42.1,68
+Brooklyn,"2,559,903"," $68,080 ",70.82,162
+Manhattan,"1,628,706"," $95,250 ",22.83,125
+Queens,"2,253,858 "," $74,960 ",108.53,75
+Staten Island," 476,143"," $91,360 ",58.37,N/A
