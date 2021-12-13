@@ -94,7 +94,7 @@ Promise.all([
           <div> Subway Stops: ${d.properties.Subway_Stops} </div>
           `
       )
-      .style("left", `${event.layerX}px`)
+      .style("left", `${event.layerX}px-10px`)
       .style("top", `${event.layerY}px`)
       .style("opacity", 1);
   }
