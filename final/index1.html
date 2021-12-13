@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-  <head>
-      <title> FINAL </title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./style.css">
+
+<head>
+  <title> FINAL </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-</div>
-<script src="../lib/d3.js"></script>
-</div>
-  <header> 
+  </div>
+  <script src="../lib/d3.js"></script>
+  </div>
+  <header>
     <!--<div style=line-height:10px;font-size:3em;color:#000;display:inline-block;>NYC</div> -->
-   <span style=background:#000;>N</span>
+    <span style=background:#000;>N</span>
     <span style=background:#000;>Y</span>
     <span style=background:#000;margin-right:30px;>C</span>
 
     <span style=background:#EE352E;>S</span>
-    <span style = background:#0039A6;>U</span>
-    <span style = background:#FCCC0A;>B</span>
-    <span style = background:#00933C;>W</span>
-    <span style = background:#FF6319;>A</span>
-    <span style = background:#B933AD;margin-right:30px;>Y</span>
+    <span style=background:#0039A6;>U</span>
+    <span style=background:#FCCC0A;>B</span>
+    <span style=background:#00933C;>W</span>
+    <span style=background:#FF6319;>A</span>
+    <span style=background:#B933AD;margin-right:30px;>Y</span>
 
     <span style=background:#000;margin-right:30px;>&</span>
- 
+
     <span style=background:#000;>A</span>
     <span style=background:#000;>C</span>
     <span style=background:#000;>C</span>
@@ -36,42 +38,83 @@
     <span style=background:#000;>I</span>
     <span style=background:#000;>T</span>
     <span style=background:#000;>Y</span>
-</header>
+  </header>
   <div class="subhead">CUNY The Graduate Center || DATA 73200 || New York, NY </div>
-  <div class = "intro"> 
-    <p>As New Yorkers we huddle on to subways, buses, and other types of public transportation daily. We rely on its safety and (semi) predictable schedule to get us where we need to go.</p>
-    <p>However, the most intricate form of transportation, the subway, didn't just appear out of thin air. It took time, money, and hard work from three different transportation companies to start what we know today as the MTA or the Metropolitan Transit Authority.  <a href="https://www.nycsubway.org/wiki/The_First_Subway">At the start of the 1900s</a>, it grew from just a few stops in downtown Manhattan to over 400 in almost all boroughs of the city (Sorry, Staten Island).</p>
-    <p>So, yes, the subway is a necessity. But what if you weren't able to take the subway to work or school? You may think, "How could this be possible?". Well, there are barriers to entry, literally and figurately for many citizens. The biggest barrier, in my opinion, is physical accessibility. By this I mean two things: physical entry and spatial density. First, let's break down physical entry. </p>
-    <p>Say, you broke your leg. Whoops. Now you are in crutches and a cast or maybe even use one of those scooters to get around. You've already taken all of your vacation days and need to go back to work (in a world without a deadly pandemic). You start heading towards your preferred subway stop. You arrive and you realize your platform is elevated. You begin to look for an elevator. Guess what? There aren't any to be found. You think to yourself, "How the heck is this even possible? There is the <a href="https://beta.ada.gov/">ADA Act (1990)</a> here in the good ol' United States.". In a turn of events, NYC has evaded the law for some time since the subways are so old and it would cost a tremendous amount to make amends and accessible buses exist, etc.  
-      <a href="https://www.cdc.gov/ncbddd/disabilityandhealth/infographic-disability-impacts-all.html">According to the CDC</a>, 1 in 4 Americans is disabled. Additionally, NYC has disclosed that about <a href = "https://www1.nyc.gov/assets/mopd/downloads/pdf/accessiblenyc-2018.pdf">11% of its citizens are disabled as well.</a> Now, think about if you constantly relied on a wheelchair to get around. Figuring out which stops are accessible and planning your route would simply be unbearable. "Which lines can I take?" "Will the elevator even work today?" Subway systems are supposed to be designed in order to make lives easier, not harder. Governments need to assist all citizens. If this mode of transportation is helping most but not all, are they even doing their job? </p>
-    <p>The graph below represents the count of stops per colored line that are accessible, not acessible and somehwat accessible. Here, "somewhat accessible" indicates that the station may have an elevator for uptown trains only or certain lines within a larger station complex. Hover over the map of the five boroughs to see more information.</p>
-<p></p>
-   <div class = "legend">
-    <ul>
-      <li style="color:#000">Total</li>
-      <li style = "color:#4daf4a">Accessible Stations</li>
-      <li style = "color: #aaa">Non-Accessible Stations</li>
-      <li style = "color: #377eb8">Somewhat Accessible Stations</li>
-    </ul>
-</div>
+  <div class="intro">
+    <p>As New Yorkers we huddle on to subways, buses, and other types of public transportation daily. We rely on its
+      safety and (semi) predictable schedule to get us where we need to go.</p>
+    <p>However, the most intricate form of transportation, the subway, didn't just appear out of thin air. It took time,
+      money, and hard work from three different transportation companies to start what we know today as the MTA or the
+      Metropolitan Transit Authority. <a href="https://www.nycsubway.org/wiki/The_First_Subway">At the start of the
+        1900s</a>, it grew from just a few stops in downtown Manhattan to over 400 in almost all boroughs of the city
+      (Sorry, Staten Island).</p>
+    <p>So, yes, the subway is a necessity. But what if you weren't able to take the subway to work or school? You may
+      think, "How could this be possible?". Well, there are barriers to entry, literally and figurately for many
+      citizens. The biggest barrier, in my opinion, is physical accessibility. By this I mean two things: physical entry
+      and spatial density. First, let's break down physical entry. </p>
+    <p>Say, you broke your leg. Whoops. Now you are in crutches and a cast or maybe even use one of those scooters to
+      get around. You've already taken all of your vacation days and need to go back to work (in a world without a
+      deadly pandemic). You start heading towards your preferred subway stop. You arrive and you realize your platform
+      is elevated. You begin to look for an elevator. Guess what? There aren't any to be found. You think to yourself,
+      "How the heck is this even possible? There is the <a href="https://beta.ada.gov/">ADA Act (1990)</a> here in the
+      good ol' United States.". In a turn of events, NYC has evaded the law for some time since the subways are so old
+      and it would cost a tremendous amount to make amends and accessible buses exist, etc.
+      <a href="https://www.cdc.gov/ncbddd/disabilityandhealth/infographic-disability-impacts-all.html">According to the
+        CDC</a>, 1 in 4 Americans is disabled. Additionally, NYC has disclosed that about <a
+        href="https://www1.nyc.gov/assets/mopd/downloads/pdf/accessiblenyc-2018.pdf">11% of its citizens are disabled as
+        well.</a> Now, think about if you constantly relied on a wheelchair to get around. Figuring out which stops are
+      accessible and planning your route would simply be unbearable. "Which lines can I take?" "Will the elevator even
+      work today?" Subway systems are supposed to be designed in order to make lives easier, not harder. Governments
+      need to assist all citizens. If this mode of transportation is helping most but not all, are they even doing their
+      job?
+    </p>
+    <p>The graph below represents the count of stops per colored line that are accessible, not acessible and somehwat
+      accessible. Here, "somewhat accessible" indicates that the station may have an elevator for uptown trains only or
+      certain lines within a larger station complex. Hover over the map of the five boroughs to see more information.
+    </p>
+    <p></p>
+    <div class="legend">
+      <ul>
+        <li style="color:#000">Total</li>
+        <li style="color:#4daf4a">Accessible Stations</li>
+        <li style="color: #aaa">Non-Accessible Stations</li>
+        <li style="color: #377eb8">Somewhat Accessible Stations</li>
+      </ul>
+    </div>
 
-    <div id="container">
-  
-    </div>
+    <div id="container"></div>
     <script src="accessiblecount.js"></script>
-  
+
     <script src="overviewborough.js"></script>
-   
-    <div id = "containerOB"></div>
-    <div class = "moreinfo"> 
-      <p> We know that there is a literal barrier to enter subways for some of our city's citizens but there is a figurative one as well.
-        Look at the density of the stops compared to the area of the borough. How come the farther away you are from the center of Manhattan, a decreasing number of subway stops are available? 
-        About a third of Queens is a subway desert. You can see similar examples in Brooklyn and the Bronx the further you move away from Manhattan. While Manhattan is the heart of the city, it is simply 1 of 5 boroughs that comprise New York City. Why has it received the most attention? Is it because its residents are on average the richest based on the median household average income per borough?
-        In the US, there is also income inequality dependant on race. Black, Latinx, and other minority households <a href = "https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.htm">make considerably less than white families.</a>
-        The outer boroughs (Bronx, Queens, and Brooklyn), maybe you've guessed, have a higher "minority" population than Manhattan. Simply to highlight, 33% of Bronx residents identify as Black, 25% of Queens residents identify as Asian, and 20% of Brooklyn's population identify as Hispanic. The full breakdown by the NYC Department of Planning can be viewed <a href = "https://data.cityofnewyork.us/City-Government/Demographic-and-Housing-Profiles-by-Borough/cu9u-3r5e"> here</a>.   
-        As the outer boroughs decrease in the average living wage and increase in people of color, we can infer that the subway was intended for the white and wealthy.
+
+    <div id="containerOB"></div>
+    <div class="moreinfo">
+      <p> We know that there is a literal barrier to enter subways for some of our city's citizens but there is a
+        figurative one as well.
+        Look at the density of the stops compared to the area of the borough. How come the farther away you are from the
+        center of Manhattan, a decreasing number of subway stops are available?
+        About a third of Queens is a subway desert. You can see similar examples in Brooklyn and the Bronx the further
+        you move away from Manhattan. While Manhattan is the heart of the city, it is simply 1 of 5 boroughs that
+        comprise New York City. Why has it received the most attention? Is it because its residents are on average the
+        richest based on the median household average income per borough?
+        In the US, there is also income inequality dependant on race. Black, Latinx, and other minority households <a
+          href="https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.htm">make
+          considerably less than white families.</a>
+        The outer boroughs (Bronx, Queens, and Brooklyn), maybe you've guessed, have a higher "minority" population than
+        Manhattan. Simply to highlight, 33% of Bronx residents identify as Black, 25% of Queens residents identify as
+        Asian, and 20% of Brooklyn's population identify as Hispanic. The full breakdown by the NYC Department of
+        Planning can be viewed <a
+          href="https://data.cityofnewyork.us/City-Government/Demographic-and-Housing-Profiles-by-Borough/cu9u-3r5e">
+          here</a>.
+        As the outer boroughs decrease in the average living wage and increase in people of color, we can infer that the
+        subway was intended for the white and wealthy.
       </p>
-      <p>While this situation is hopefully not on purpose, the data is clear. The New York City subway system has alienated 30-40% of its population based on race and disability status. While I'm not a city planner nor a politician, I hope someone who is can understand this viewpoint and bring awareness and action to this issue.</p>
+      <p>While this situation is hopefully not on purpose, the data is clear. The New York City subway system has
+        alienated 30-40% of its population based on race and disability status. While I'm not a city planner nor a
+        politician, I hope someone who is can understand this viewpoint and bring awareness and action to this issue.
+      </p>
     </div>
+    <div class = "footer"> Sources</div>
 </body>
+
 </html>

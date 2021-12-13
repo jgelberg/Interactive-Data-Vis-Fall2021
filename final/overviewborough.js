@@ -1,6 +1,6 @@
 // dimensions
-const marginOB = { topOB: 120, rightOB: 40, bottomOB: 10, leftOB: 50 }
-const widthOB = 1400 /*- margin.right - margin.left*/
+const marginOB = { topOB: 120, rightOB: 40, bottomOB: 10, leftOB: 40 }
+const widthOB = 1200 /*- margin.right - margin.left*/
 const heightOB = 1200;
 
 
