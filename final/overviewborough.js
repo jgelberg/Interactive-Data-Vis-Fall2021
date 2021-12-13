@@ -27,6 +27,7 @@ Promise.all([
 
   const features = data.features;
 
+
   const svgOB = d3.select("#containerOB")
     .append("svg")
     .attr("width", widthOB)
@@ -98,17 +99,22 @@ Promise.all([
       .style("opacity", 1);
   }
 
+
+
   const mouseoverSUB = function (event, d) {
     toolTipSUB
     .html(`
     <div>Stop: ${d.NAME} </div>
-    <div>Line(s): ${d.LINE} </div>
+    <div> Line(s): ${d.LINE} </div>
     <div>Notes: ${d.ACC_NOTES}  </div>`)
+    
     .style("opacity", 1)
     //.style("top", (event.pageY-1000)+"px")
     //.style("left",(event.pageX-800)+"px")
     .style("right", `${event.screenX}px`)
     .style("top", `${event.screenY}px`)
+ 
+
     ;
 
   }
