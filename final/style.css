@@ -1,6 +1,6 @@
 body {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     padding: 1em;
     background-color: #f9f7f1;
   }
@@ -62,7 +62,7 @@ padding:20px;
     }*/
 
   .intro{
-    margin-top:10px;
+    margin-top:20px;
     margin-bottom:100px;
     padding: 20px;
   }
@@ -85,7 +85,7 @@ padding:20px;
 
   #containerOB{
     position: absolute;
-    top: 1200px; 
+    top: 1240px; 
     left:200px;
 align-content: center;
 
