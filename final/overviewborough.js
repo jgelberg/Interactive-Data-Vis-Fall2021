@@ -135,7 +135,14 @@ Promise.all([
     .data(subway)
     .enter().append("circle")
    //.attr("id", "circleBasicTooltip")
-    .attr("fill", '#fff')
+    //.attr("fill", '#fff')
+    .attr('stroke', 'black')
+    .style('stroke-width', '1px')
+    .style("fill", function(d) {            
+      if (d.ACC_NOTES == "Not Accessible") {return "#aaa"}  
+      if (d.ACC_NOTES == "Accessible") {return "#4daf4a"}
+      else { return "#377eb8" }             
+  ;})                                     
     .attr("r", 3)
     .on("mousemove", mouseoverSUB)
 
